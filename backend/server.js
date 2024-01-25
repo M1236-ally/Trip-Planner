@@ -16,7 +16,7 @@ app.use(cors(
 ))
 app.use(express.json({extended:true}))
 app.use(express.urlencoded())
-
+require('dotenv').config();
 
 app.get('/test',(req,res)=>{
 
@@ -122,19 +122,19 @@ app.get('/dest', (req,res)=>{
 
 
   
-mongoose.connect("mongodb://127.0.0.1:27017/info", {
-  useNewUrlParser: true,
-  useUnifiedTopology:true
-}, ()=>{
-  console.log("connected1")
-})
-
-// mongoose.connect("", {
+// mongoose.connect("mongodb://127.0.0.1:27017/info", {
 //   useNewUrlParser: true,
 //   useUnifiedTopology:true
 // }, ()=>{
 //   console.log("connected1")
 // })
+
+mongoose.connect(process.env.MONGODB_URI,{
+  useNewUrlParser: true,
+  useUnifiedTopology:true
+}, ()=>{
+  console.log("connected1")
+})
 
 /*mongoose.createConnection("mongodb://127.0.0.1:27017/tripsuggest", {
   useNewUrlParser: true,

@@ -1,0 +1,267 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#body{
+  background-color: rgb(176, 227, 230);
+}
+
+#head1{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+#name1{
+  background-color:white;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+#one,#two,#three,#four,#five{
+  display: inline-block;
+}
+
+#one{
+  color:lightcoral;
+  font-size:23px;
+  padding-left:30px;
+}
+
+#two{
+  color:black;
+  font-size:23px;
+  font-family:sans-serif;
+  text-align: center;
+  padding-left:220px;
+}
+
+#three,#four{
+  color:black;
+  padding-left:50px;
+  font-size:23px;
+  font-family: sans-serif;
+  padding-right:380px;
+}
+
+#four{
+  padding-right:400px;
+}
+
+#five,#six{
+  color:black;
+  font-size:23px;
+  font-family: sans-serif; 
+}
+
+#Pic{
+  background-image:url("https://www.indianholiday.com/images/header-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height:55vh;
+}
+
+#pl1{
+  width:360px;
+  padding: 10px 20px;
+}
+
+#planner{
+   margin-left:70px;
+   margin-top:100px;
+   background-color: rgb(132, 170, 204);
+   border-radius: 10px;
+   height:84vh;
+}
+
+#firsttext{
+  padding-left:100px;
+  margin-top:240px;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: wavy;
+  -webkit-text-stroke:1px white;
+  color:black;
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#hl1{
+  text-align: center;
+  color:rgb(226, 43, 67);
+  font-size:15px;
+  margin-top:14px;
+}
+
+#planbtn{
+  border-radius:20px;
+  width:40%;
+  padding:10px;
+  margin-top: 10px;
+  background-color: white;
+  justify-content: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: oblique;
+  /* font-size: 23px; */
+  justify-items: center;
+  transition: 0.5s;
+  border: 0px;
+  cursor: pointer;
+  margin-left:120px;
+  color:black;
+}
+
+#planLink{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: oblique;
+  font-size:17px;
+  color:black;
+}
+
+#Secondsection{
+  display: flex;
+  flex-direction: row;
+}
+
+#head{
+  font-size:33px;
+  color: black;
+  text-align: center;
+}
+
+
+#im1
+{
+width: 250px;
+height: 200px;
+border-radius: 20px;
+animation-name: my-animation;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes my-animation {
+  from {
+    width: 300px;
+    top: 10px;
+  }
+  to {
+   
+    width:230px;
+    top: 100px;
+  }
+}
+
+#Camping{
+  padding-left: 300px;
+  padding-top:60px;
+}
+
+#Rafting{
+  padding-left: 100px;
+}
+
+#Trekking{
+  padding-left: 300px;
+  padding-bottom:90px; 
+}
+
+#Camping:hover img
+{
+    transform: scale(1.5);
+    border-radius: 20px;
+}
+
+#Rafting:hover img
+{
+    transform: scale(1.5);
+    border-radius: 20px;
+}
+
+#Trekking:hover img
+{
+    transform: scale(1.5);
+    border-radius: 20px;
+}
+
+#AlText{
+  float:right;
+  padding-top:230px;
+  padding-left:200px;
+  text-decoration: dashed;
+  color:black;
+  text-align: center;
+  font-size:30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#Al1{
+  font-weight: bolder;
+  font-size:30px;
+  padding-top:0px;
+}
+#Destbtn{
+  width: 40%;
+  padding:10px;
+  margin-top:20px;
+  background-color:black;
+  justify-content: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: oblique;
+  font-size: 23px;
+  justify-items: center;
+  transition: 0.5s;
+  border-radius: 0.25em;
+  cursor: pointer;
+  margin-left:0px;
+  border:0px;
+  color: white;
+}
+
+#Destin{
+  display: flex;
+  flex-direction: row;
+}
+
+#TrendH
+{
+   text-align: center; 
+}
+
+
+#trimg{
+  height:200px;
+  max-width:500px;
+  margin-left:20px;
+}
+
+#TrendH{
+  margin-bottom: 20px;
+  font-weight: bolder;
+  font-size:30px;
+  color:black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#trcapt{
+  text-align: center;
+}
+
+.image1{
+  margin-bottom:50px;
+}
+
+#logout{
+  justify-content: right;
+  color: black;
+  border:1px solid white;
+  background-color: white;
+  text-decoration: underline;
+  font-size:22px;
+}
+
+
+
+

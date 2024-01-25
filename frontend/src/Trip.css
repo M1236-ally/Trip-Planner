@@ -1,0 +1,115 @@
+#main{
+background-image:url('https://www.tripsavvy.com/thmb/pT_ZAje6cYUx8w2b4nsCk3FrxRU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/car-traveling-along-winding-road--maui--hawaii--america--usa-737142515-9d7096b173654472968075d805273c8f.jpg');
+background-repeat:no-repeat;
+background-position: center;
+background-size: cover;
+height:max-content;
+}
+
+#container{
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(27, 1, 1, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:700px;
+    height:fit-content;
+    margin-left:280px;
+    margin-bottom: 30px;
+}
+
+#tit{
+    color: lightcoral;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:35px;
+    text-align: center;
+}
+
+#d1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: lightcoral;
+    text-align: center;
+}
+
+#pl{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:25px;
+    color: lightcoral;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#pla{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:20px;
+    color:rgb(61, 135, 160);
+    /* margin-left:270px; */
+    margin-bottom:10px;
+    word-spacing: normal;
+    text-align: center;
+}
+
+#hl{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size:25px;
+        color: lightcoral;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 30px;
+        word-spacing: normal;
+}
+
+#three1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:20px;
+    color:rgb(61, 135, 160);
+    /* margin-left:240px; */
+    margin-bottom:10px;
+    text-align: center;
+    padding-right: 10px;
+    word-spacing: normal;
+}
+
+#submittrip1{
+    padding:10px;
+    /* margin-top:20px; */
+    background-color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size:20px;
+    justify-items:center;
+    transition: 0.5s;
+    border-radius:2px;
+    cursor: pointer;
+    margin-left:560px;
+    padding-left:20px;
+    padding-right:20px;
+    margin-bottom:45px;
+    color: white;
+}
+
+#ftlast{
+    border-top:2px solid grey;
+}
+
+#li1{
+    color:white;
+}
+
+#hoteltrip{
+    padding:10px;
+    margin-top:20px;
+    background-color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size:20px;
+    justify-items:center;
+    transition: 0.5s;
+    border-radius:2px;
+    cursor: pointer;
+    margin-left:540px;
+    padding-left:20px;
+    padding-right:20px;
+    margin-bottom:25px;
+}

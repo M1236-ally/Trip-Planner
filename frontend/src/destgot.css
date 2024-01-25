@@ -1,0 +1,39 @@
+#destresult{
+   padding-top:30px;
+   text-align: center;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   background-color: lightcoral;
+   padding-bottom:30px;
+}
+
+#hedest{
+    margin-top:80px;
+    display: flex;
+    margin-bottom:30px;
+}
+
+#findim{
+    margin-left:50px;
+    height:300px;
+    width:400px;
+    border-radius:10px;
+}
+
+#descim{
+    margin-top:40px;
+}
+
+#desc1{
+    margin-bottom:40px;
+    margin-left:30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(95, 48, 48);
+    font-weight: bold;
+    font-size:30px;
+}
+
+#desc2{
+    margin-left:35px;
+    margin-right:70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

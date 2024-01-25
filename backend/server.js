@@ -7,7 +7,13 @@ const collection4=require("./model6");
 const app = express();
 const cors = require("cors");
 const mongoose = require("mongoose");
-app.use(cors())
+app.use(cors(
+  {
+    origin:["https://trip-planner-indol.vercel.app/"],
+    methods:["POST","GET"],
+    credentials:true
+  }
+))
 app.use(express.json({extended:true}))
 app.use(express.urlencoded())
 
@@ -116,7 +122,14 @@ app.get('/dest', (req,res)=>{
 
 
   
-mongoose.connect("mongodb://127.0.0.1:27017/info", {
+// mongoose.connect("mongodb://127.0.0.1:27017/info", {
+//   useNewUrlParser: true,
+//   useUnifiedTopology:true
+// }, ()=>{
+//   console.log("connected1")
+// })
+
+mongoose.connect("mongodb+srv://tripplan:trip123@cluster0.zaaeatw.mongodb.net/?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology:true
 }, ()=>{

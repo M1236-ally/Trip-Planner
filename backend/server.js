@@ -122,19 +122,19 @@ app.get('/dest', (req,res)=>{
 
 
   
-// mongoose.connect("mongodb://127.0.0.1:27017/info", {
-//   useNewUrlParser: true,
-//   useUnifiedTopology:true
-// }, ()=>{
-//   console.log("connected1")
-// })
-
-mongoose.connect("mongodb+srv://tripplan:trip123@cluster0.zaaeatw.mongodb.net/info?retryWrites=true&w=majority", {
+mongoose.connect("mongodb://127.0.0.1:27017/info", {
   useNewUrlParser: true,
   useUnifiedTopology:true
 }, ()=>{
   console.log("connected1")
 })
+
+// mongoose.connect("", {
+//   useNewUrlParser: true,
+//   useUnifiedTopology:true
+// }, ()=>{
+//   console.log("connected1")
+// })
 
 /*mongoose.createConnection("mongodb://127.0.0.1:27017/tripsuggest", {
   useNewUrlParser: true,

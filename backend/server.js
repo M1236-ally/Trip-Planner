@@ -129,7 +129,7 @@ app.get('/dest', (req,res)=>{
 //   console.log("connected1")
 // })
 
-mongoose.connect("mongodb+srv://tripplan:trip123@cluster0.zaaeatw.mongodb.net/?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://tripplan:trip123@cluster0.zaaeatw.mongodb.net/info?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology:true
 }, ()=>{

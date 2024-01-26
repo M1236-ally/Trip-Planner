@@ -14,8 +14,8 @@ app.use(cors(
   }
 ))
 // app.use(cors())
-app.use(express.json({extended:true}))
-app.use(express.urlencoded())
+app.use(express.json())
+app.use(express.urlencoded({extended:true}))
 require('dotenv').config();
 
 app.get('/test',(req,res)=>{

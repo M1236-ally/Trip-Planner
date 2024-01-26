@@ -9,7 +9,7 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 app.use(cors(
   {
-    origin:["https://trip-planner-u39q.vercel.app/"],
+    origin:"*",
     methods:["POST","GET"]
   }
 ))
@@ -135,23 +135,6 @@ mongoose.connect(process.env.MONGODB_URI,{
 }, ()=>{
   console.log("connected1")
 })
-
-/*mongoose.createConnection("mongodb://127.0.0.1:27017/tripsuggest", {
-  useNewUrlParser: true,
-  useUnifiedTopology:true
-}, ()=>{
-  console.log("connected2")
-})
-
-mongoose.createConnection("mongodb://127.0.0.1:27017/destfinder",{
-  useNewUrlParser: true,
-  useUnifiedTopology:true,
-  
-}, ()=>{
-  console.log("connected3")
-})
-*/
-
 
 app.get("/",(req,res)=>{
   res.send("My API")

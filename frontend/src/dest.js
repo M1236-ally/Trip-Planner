@@ -12,7 +12,7 @@ const Destination=({setdestdata})=>{
   
    async function handleSubmit(e){
     e.preventDefault();
-   const response=await axios.post("http://trip-planner-self.vercel.app/dest",{
+   const response=await axios.post("http://trip-planner-server-cyan.vercel.app/dest",{
        selectedOption1,selectedOption2,selectedOption3
 
      });

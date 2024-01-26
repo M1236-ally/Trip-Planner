@@ -15,11 +15,9 @@ function Signup(){
 
           try{
 
-            await axios.post("http://trip-planner-self.vercel.app/test2",{
+            await axios.post("http://trip-planner-server-cyan.vercel.app/test2",{
                 name,email,password
-            },{
-                withCredentials: true
-              })
+            })
             .then(res=>{
                 if(res.data==="exist")
                 { 

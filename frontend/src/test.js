@@ -18,7 +18,7 @@ function Login(){
 
           try{
 
-            await axios.post("http://trip-planner-self.vercel.app/test",{
+            await axios.post("http://trip-planner-server-cyan.vercel.app/test",{
                 name,password
             })
             .then(res=>{

@@ -10,10 +10,10 @@ const mongoose = require("mongoose");
 app.use(cors(
   {
     origin:["https://trip-planner-u39q.vercel.app/"],
-    methods:["POST","GET"],
-    credentials:true
+    methods:["POST","GET"]
   }
 ))
+// app.use(cors())
 app.use(express.json({extended:true}))
 app.use(express.urlencoded())
 require('dotenv').config();

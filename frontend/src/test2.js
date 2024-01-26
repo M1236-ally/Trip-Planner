@@ -15,7 +15,7 @@ function Signup(){
 
           try{
 
-            await axios.post("http:/trip-planner-self.vercel.app/test2",{
+            await axios.post("http://trip-planner-self.vercel.app/test2",{
                 name,email,password
             },{
                 withCredentials: true

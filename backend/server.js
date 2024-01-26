@@ -9,7 +9,7 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 app.use(cors(
   {
-    origin:["https://trip-planner-indol.vercel.app/"],
+    origin:["https://trip-planner-u39q.vercel.app/"],
     methods:["POST","GET"],
     credentials:true
   }

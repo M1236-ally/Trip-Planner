@@ -18,7 +18,7 @@ function Login(){
 
           try{
 
-            await axios.post("http://localhost:4000/test",{
+            await axios.post("http://trip-planner-self.vercel.app/test",{
                 name,password
             })
             .then(res=>{

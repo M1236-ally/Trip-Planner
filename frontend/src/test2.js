@@ -15,7 +15,7 @@ function Signup(){
 
           try{
 
-            await axios.post("http://localhost:4000/test2",{
+            await axios.post("http:/trip-planner-self.vercel.app/test2",{
                 name,email,password
             })
             .then(res=>{
@@ -68,3 +68,5 @@ function Signup(){
 };
 
 export default Signup;
+
+// http://localhost:4000/test2

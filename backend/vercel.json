@@ -6,8 +6,12 @@
      ],
      "routes":[
         {
-            "src":"/(.*)",
-            "dest":"/"
-        }
+                "src": "/favicon.ico",
+                "dest": "/favicon.ico"
+              },
+              {
+                "src": "/api/(.*)",
+                "dest": "/$1"
+              }
      ]
 }

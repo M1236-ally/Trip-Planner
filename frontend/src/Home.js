@@ -22,7 +22,7 @@ function Home({setTripdata}) {
    async function submit(e){
 
       e.preventDefault();
-      const response=await axios.post("http://trip-planner-server-cyan.vercel.app/home",{
+      const response=await axios.post("https://trip-planner-server-cyan.vercel.app/home",{
              Destination,Days,People,Budget,Date
                         });
                //console.log(response)

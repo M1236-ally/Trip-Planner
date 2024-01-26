@@ -15,7 +15,7 @@ function Signup(){
 
           try{
 
-            await axios.post("http://trip-planner-server-cyan.vercel.app/test2",{
+            await axios.post("https://trip-planner-server-cyan.vercel.app/test2",{
                 name,email,password
             })
             .then(res=>{
